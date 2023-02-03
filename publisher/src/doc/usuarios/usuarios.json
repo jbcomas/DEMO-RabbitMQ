@@ -1,0 +1,21 @@
+{"/usuarios" : {
+    "get" : {
+        "summary" : "",
+        "tags":["USUARIOS"],
+        "description": "trae todos los usuarios",
+        "produces": ["application/json"],
+        "responses": {
+            "200": {
+                "description": "successful operation",
+                "schema": {
+                    "type": "array"
+                 
+                }
+            },
+            "400": {
+                "description": "Invalid status value"
+            }
+        }
+    }
+}
+}
